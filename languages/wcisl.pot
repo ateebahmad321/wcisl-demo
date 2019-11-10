@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: blocks/movie-block/index.js:19
+msgid "Movie"
+msgstr ""
+
+#: blocks/movie-block/index.js:22
+msgid "Simple text & heading block  to show working of block"
+msgstr ""
+
+#: blocks/movie-block/index.js:34
+msgid "movie"
+msgstr ""
+
+#: blocks/movie-block/index.js:34
+#: blocks/pinterest-block/index.js:31
+msgid "wcisl"
+msgstr ""
+
+#: blocks/movie-block/index.js:34
+msgid "film"
+msgstr ""
+
+#: blocks/movie-block/index.js:69
+msgid "Movie Title"
+msgstr ""
+
+#: blocks/movie-block/index.js:77
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting "
+"industry.Lorem Ipsum is simply dummy text of the printing and typesetting "
+"industry "
+msgstr ""
+
+#: blocks/pinterest-block/index.js:16
+msgid "Pinterst Profile"
+msgstr ""
+
+#: blocks/pinterest-block/index.js:19
+msgid "It will show pinterset user porilfe image and follower."
+msgstr ""
+
+#: blocks/pinterest-block/index.js:31
+msgid "pinterest"
+msgstr ""
+
+#: blocks/pinterest-block/index.js:31
+msgid "profile"
+msgstr ""
+
+#: blocks/pinterest-block/index.js:57
+msgid "Settings"
+msgstr ""
+
+#: blocks/pinterest-block/index.js:59
+msgid "Pinterest Profile slug"
+msgstr ""
