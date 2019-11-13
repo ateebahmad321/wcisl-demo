@@ -1,5 +1,5 @@
 /**
- * Import example blocks
+ * Import blocks
  */
 
 import "./movie-block"
