@@ -13,7 +13,7 @@ const { __ } = wp.i18n;
 const { RichText } = wp.editor;
 
 
-export default registerBlockType('movie/wcisl', { // Rigster block function to register block
+export default registerBlockType('wcisl/movie', { // Rigster block function to register block
 
   //This is the title of your block . Which can be translated with translation function.
   title: __("Movie"),

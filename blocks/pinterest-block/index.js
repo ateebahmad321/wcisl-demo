@@ -10,7 +10,7 @@ const { InspectorControls } = wp.editor;
 const { TextControl, PanelBody, ServerSideRender } = wp.components;
 
 
-export default registerBlockType('pinterset/wcisl', { // Rigster block function to register block
+export default registerBlockType('wcisl/pinterset', { // Rigster block function to register block
 
   //This is the title of your block . Which can be translated with translation function.
   title: __("Pinterst Profile"),
