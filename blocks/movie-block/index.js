@@ -45,6 +45,10 @@ export default registerBlockType('wcisl/movie', { // Rigster block function to r
       source: 'html',
       selector: 'p',
     },
+    rating: {
+			type: "number",
+			default: 5
+		}
   },
   //https://developer.wordpress.org/block-editor/developers/block-api/block-registration/#supports-optional
   support: {
@@ -78,6 +82,9 @@ export default registerBlockType('wcisl/movie', { // Rigster block function to r
         onChange={(description) => setAttributes({ description })} // setAttributes( {title:titles})
         keepPlaceholderOnFocus
       />
+      <div class="star-rating" style={ratingStyle}>
+				<ul class="list-inline">{getRating(rating)}</ul>
+			</div>
 
     </div>)
   },
