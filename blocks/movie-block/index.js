@@ -82,9 +82,6 @@ export default registerBlockType('wcisl/movie', { // Rigster block function to r
         onChange={(description) => setAttributes({ description })} // setAttributes( {title:titles})
         keepPlaceholderOnFocus
       />
-      <div class="star-rating" style={ratingStyle}>
-				<ul class="list-inline">{getRating(rating)}</ul>
-			</div>
 
     </div>)
   },

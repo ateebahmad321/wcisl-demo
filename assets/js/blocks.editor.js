@@ -184,16 +184,7 @@ var RichText = wp.editor.RichText;
           return setAttributes({ description: description });
         } // setAttributes( {title:titles})
         , keepPlaceholderOnFocus: true
-      }),
-      wp.element.createElement(
-        "div",
-        { "class": "star-rating", style: ratingStyle },
-        wp.element.createElement(
-          "ul",
-          { "class": "list-inline" },
-          getRating(rating)
-        )
-      )
+      })
     );
   },
   save: function save(props) {
