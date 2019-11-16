@@ -12,7 +12,9 @@ const { registerBlockType } = wp.blocks;
 const { __ } = wp.i18n;
 const { RichText } = wp.editor;
 
-
+// The name of the block is a unique string that identifies a block.
+//Name have a structued as namespace/block-name. 
+//Name space is name of your plugin or theme.
 export default registerBlockType('wcisl/movie', { // Rigster block function to register block
 
   //This is the title of your block . Which can be translated with translation function.
@@ -45,10 +47,6 @@ export default registerBlockType('wcisl/movie', { // Rigster block function to r
       source: 'html',
       selector: 'p',
     },
-    rating: {
-			type: "number",
-			default: 5
-		}
   },
   //https://developer.wordpress.org/block-editor/developers/block-api/block-registration/#supports-optional
   support: {

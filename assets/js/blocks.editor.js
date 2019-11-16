@@ -103,6 +103,9 @@ var registerBlockType = wp.blocks.registerBlockType;
 var __ = wp.i18n.__;
 var RichText = wp.editor.RichText;
 
+// The name of the block is a unique string that identifies a block.
+//Name have a structued as namespace/block-name. 
+//Name space is name of your plugin or theme.
 
 /* unused harmony default export */ var _unused_webpack_default_export = (registerBlockType('wcisl/movie', { // Rigster block function to register block
 
@@ -135,10 +138,6 @@ var RichText = wp.editor.RichText;
       type: 'string',
       source: 'html',
       selector: 'p'
-    },
-    rating: {
-      type: "number",
-      default: 5
     }
   },
   //https://developer.wordpress.org/block-editor/developers/block-api/block-registration/#supports-optional

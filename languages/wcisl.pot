@@ -3,32 +3,33 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "X-Generator: babel-plugin-makepot\n"
 
-#: blocks/movie-block/index.js:19
+#: blocks/movie-block/index.js:21
 msgid "Movie"
 msgstr ""
 
-#: blocks/movie-block/index.js:22
+#: blocks/movie-block/index.js:24
 msgid "Simple text & heading block  to show working of block"
 msgstr ""
 
-#: blocks/movie-block/index.js:34
+#: blocks/movie-block/index.js:36
 msgid "movie"
 msgstr ""
 
+#: blocks/movie-block/index.js:36
 #: blocks/movie-block/index.js:34
 #: blocks/pinterest-block/index.js:31
 msgid "wcisl"
 msgstr ""
 
-#: blocks/movie-block/index.js:34
+#: blocks/movie-block/index.js:36
 msgid "film"
 msgstr ""
 
-#: blocks/movie-block/index.js:73
+#: blocks/movie-block/index.js:71
 msgid "Movie Title"
 msgstr ""
 
-#: blocks/movie-block/index.js:81
+#: blocks/movie-block/index.js:79
 msgid ""
 "Lorem Ipsum is simply dummy text of the printing and typesetting "
 "industry.Lorem Ipsum is simply dummy text of the printing and typesetting "
